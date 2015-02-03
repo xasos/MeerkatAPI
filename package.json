@@ -1,0 +1,25 @@
+{
+  "name": "pgessays-epub",
+  "version": "0.0.1",
+  "description": "Web app to get PG's essays in ePub form",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xasos/pgessays-epub.git"
+  },
+  "keywords": [
+    "node",
+    "paul",
+    "graham",
+    "express"
+  ],
+  "author": "Niraj Pant <nirajpant7@gmail.com> (http://nirajpant.co/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xasos/pgessays-epub/issues"
+  },
+  "homepage": "https://github.com/xasos/pgessays-epub"
+}
