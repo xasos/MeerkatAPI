@@ -1,5 +1,5 @@
 # pgessays-epub
-Generate a fresh ePub of all of all of Paul Graham's Essays as soon as they're available.
+Generate a fresh ePub of Paul Graham's latest essays.
 
 **Notice**: Not complete, under active development.
 
