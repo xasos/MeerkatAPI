@@ -6,6 +6,8 @@ Unofficial API Documentation for the internal [Meerkat](http://meerkatapp.co) AP
 
 Meerkat hosts different components of their API on different sub-domains, so base URLs for resources will differ. 
 
+Any route with an <sup>*</sup> requires `?v=2` be appended to the end URL.
+
 ### Broadcasts
 
 #### Base URL: http://resources.meerkatapp.co/broadcasts
@@ -28,11 +30,22 @@ Meerkat hosts different components of their API on different sub-domains, so bas
 | GET /:uid/profile<sup>*</sup> | Get user's profile |
 | GET /leaderboard | Get top Meerkat users |
 
-Any route with an <sup>*</sup> requires `?v=2` be appended to the end URL.
+```
+{
+"result": "rise and shine my child",
+"followupActions": {
+"stats": "https://stats.meerkatapp.co/logs",
+"signIn": "https://social.meerkatapp.co/users/?v=2",
+"inviteValidation": "https://social.meerkatapp.co/invite/{inviteCode}?v=2",
+"available": "https://social.meerkatapp.co/users/available?v=2",
+"signUp": "https://social.meerkatapp.co/users/?v=2"
+}
+}
+```
 
-### User Info
+### User Information
 
-#### Base URL: http://social.meerkatapp.co/users/:uid
+#### Base URL: http://social.meerkatapp.co/users
 
 Here's a mess of API routes that will be explored soon (all from one domain). Stay tuned!
 
@@ -40,10 +53,10 @@ Here's a mess of API routes that will be explored soon (all from one domain). St
 | ---- | --------------- |
 | DELETE /:uid/fans | Get channel's list of following users |
 | DELETE /:uid/followers | Get status of follow relationship between user and target channel |
-| GET /:uid/followers | Follow a channel |
-| GET /:uid/following | Unfollow a channel |
-| GET /:uid/profile | Unfollow a channel |
-| GET /i-am-alive | Unfollow a channel |
+| GET /:uid/followers<sup>*</sup> | Get user's followers |
+| GET /:uid/following<sup>*</sup> | Get user's following |
+| GET /:uid/profile<sup>*</sup> | Get user's profile |
+| GET /i-am-alive<sup>*</sup> | Easter Egg |
 | OPTIONS / | Unfollow a channel |
 | OPTIONS /:uid | Unfollow a channel |
 | OPTIONS /:uid/followers | Unfollow a channel |
