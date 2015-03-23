@@ -10,6 +10,8 @@ Meerkat hosts different components of their API on different sub-domains, so bas
 
 ### Broadcasts
 
+#### Base URL: http://resources.meerkatapp.co/broadcasts/
+
 | Endpoint | Description |
 | ---- | --------------- |
 | GET / | Get channel's list of following users |
@@ -19,6 +21,8 @@ Meerkat hosts different components of their API on different sub-domains, so bas
 | DELETE /users/:user/follows/channels/:target | Unfollow a channel |
 
 ### Users
+
+#### Base URL: http://resources.meerkatapp.co/users/
 
 | Endpoint | Description |
 | ---- | --------------- |
