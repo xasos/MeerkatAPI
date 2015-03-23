@@ -10,19 +10,19 @@ Meerkat hosts different components of their API on different sub-domains, so bas
 
 ### Broadcasts
 
-#### Base URL: http://resources.meerkatapp.co/broadcasts/
+#### Base URL: http://resources.meerkatapp.co/broadcasts
 
 | Endpoint | Description |
 | ---- | --------------- |
-| GET / | Get channel's list of following users |
-| GET /users/:user/follows/channels | Get a user's list of followed channels |
-| GET /users/:user/follows/channels/:target | Get status of follow relationship between user and target channel |
-| PUT /users/:user/follows/channels/:target | Follow a channel |
-| DELETE /users/:user/follows/channels/:target | Unfollow a channel |
+| GET / | Get list of latest broadcasts |
+| GET /:broadcastId/activities | Get individual broadcast information |
+| GET /:broadcastId/summary | Get individual broadcast information with further action URLs |
+| GET /:broadcastId/watchers | Get list and information of watchers |
+| GET /:scheduleId/schedule | Get scheduled broadcast information |
 
 ### Users
 
-#### Base URL: http://resources.meerkatapp.co/users/
+#### Base URL: http://resources.meerkatapp.co/users
 
 | Endpoint | Description |
 | ---- | --------------- |
