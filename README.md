@@ -1,8 +1,6 @@
 # MeerkatAPI
 
-Unofficial API Documentation for the internal [Meerkat](http://meerkatapp.co) API. Most endpoints were discovered through Charles Proxy.
-
-**Notice**: Not complete, under active development.
+Unofficial API Documentation for the internal [Meerkat](http://meerkatapp.co) API. Endpoints were discovered through Charles Proxy, and there are more to come.
 
 ## Endpoints
 
@@ -34,44 +32,38 @@ Any route with an <sup>*</sup> requires `?v=2` be appended to the end URL.
 
 ### User Info
 
-#### Base URL: http://resources.meerkatapp.co/users/:uid/:
+#### Base URL: http://social.meerkatapp.co/users/:uid
 
-```
-DELETE /:uid/fans
-DELETE /:uid/followers
-GET /:uid/followers
-GET /:uid/following
-GET /:uid/profile
-GET /:uid/sweepSessions
-GET /i-am-alive
-OPTIONS /
-OPTIONS /:uid
-OPTIONS /:uid/followers
-OPTIONS /:uid/following
-OPTIONS /:uid/twitterFriendsSignUp
-OPTIONS /search
-POST /
-POST /:uid/fans
-POST /:uid/followers
-POST /:uid/invites
-POST /:uid/reports
-POST /:uid/socialLinks
-POST /:uid/twitterFriends
-POST /:uid/twitterFriendsSignUp
-PUT /
-PUT /:uid
-PUT /:uid/profile
-PUT /available
-PUT /search
-```
+Here's a mess of API routes that will be explored soon (all from one domain). Stay tuned!
 
 | Endpoint | Description |
 | ---- | --------------- |
-| DELETE /:uid | Get channel's list of following users |
-| GET /users/:user/follows/channels | Get a user's list of followed channels |
-| GET /users/:user/follows/channels/:target | Get status of follow relationship between user and target channel |
-| PUT /users/:user/follows/channels/:target | Follow a channel |
-| DELETE /users/:user/follows/channels/:target | Unfollow a channel |
+| DELETE /:uid/fans | Get channel's list of following users |
+| DELETE /:uid/followers | Get status of follow relationship between user and target channel |
+| GET /:uid/followers | Follow a channel |
+| GET /:uid/following | Unfollow a channel |
+| GET /:uid/profile | Unfollow a channel |
+| GET /i-am-alive | Unfollow a channel |
+| OPTIONS / | Unfollow a channel |
+| OPTIONS /:uid | Unfollow a channel |
+| OPTIONS /:uid/followers | Unfollow a channel |
+| OPTIONS /:uid/following | Unfollow a channel |
+| OPTIONS /:uid/twitterFriendsSignUp | Unfollow a channel |
+| OPTIONS /search | Unfollow a channel |
+| POST / | Unfollow a channel |
+| POST /:uid/fans | Unfollow a channel |
+| POST /:uid/followers | Unfollow a channel |
+| POST /:uid/invites | Unfollow a channel |
+| POST /:uid/reports | Unfollow a channel |
+| POST /:uid/socialLinks | Unfollow a channel |
+| POST /:uid/twitterFriends | Unfollow a channel |
+| POST /:uid/twitterFriendsSignUp | Unfollow a channel |
+| PUT / | Unfollow a channel |
+| PUT /:uid | Unfollow a channel |
+| PUT /:uid/profile | Unfollow a channel |
+| PUT /available | Unfollow a channel |
+| PUT /search | Unfollow a channel |
+
 
 ## License
 [MIT License](LICENSE)
