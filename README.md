@@ -66,4 +66,4 @@ Here's a mess of API routes that will be explored soon (all from one domain). St
 
 
 ## License
-[MIT License](LICENSE)
+[GNU General Public License v3](LICENSE)
