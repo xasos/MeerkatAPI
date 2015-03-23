@@ -6,11 +6,9 @@ Unofficial API Documentation for [Meerkat](http://meerkatapp.co), mostly sniffed
 
 ## Endpoints
 
-Grouped by Base URL, since Meerkat hosts different components of their API on different sub-domains. 
+Meerkat hosts different components of their API on different sub-domains, so Base URLs for resources will differ. 
 
-- `GET /broadcasts`
-
-### [Follows](/v3_resources/follows.md)
+### [](/v3_resources/follows.md)
 
 | Endpoint | Description |
 | ---- | --------------- |
