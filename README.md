@@ -6,7 +6,7 @@ Unofficial API Documentation for the internal [Meerkat](http://meerkatapp.co) AP
 
 Meerkat hosts different components of their API on different sub-domains, so base URLs for resources will differ. 
 
-Any route with an <sup>*</sup> requires `?v=2` be appended to the end URL.
+Any route with an <sup>*</sup> requires `?v=0.1.2` be appended to the end URL. Additionally, some routes require `?auth=xxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx` be appended to the end URL (ideally replacing with your own device auth token).
 
 ### Broadcasts
 
