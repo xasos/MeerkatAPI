@@ -24,17 +24,11 @@ Meerkat hosts different components of their API on different sub-domains, so bas
 
 #### Base URL: http://resources.meerkatapp.co/users
 
-```
-GET /:uid/privateProfile
-GET /:uid/profile
-GET /leaderboard
-```
-
 | Endpoint | Description |
 | ---- | --------------- |
-| GET /:uid/privateProfile | Get channel's list of following users |
-| GET /:uid/profile | Get a user's list of followed channels |
-| GET /leaderboard | Get status of follow relationship between user and target channel |
+| GET /:uid/privateProfile | Get user's private profile | * Requires
+| GET /:uid/profile | Get user's profile |
+| GET /leaderboard | Get top Meerkat users |
 
 ### User Info
 
