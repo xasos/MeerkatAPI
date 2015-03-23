@@ -24,9 +24,54 @@ Meerkat hosts different components of their API on different sub-domains, so bas
 
 #### Base URL: http://resources.meerkatapp.co/users
 
+```
+GET /:uid/privateProfile
+GET /:uid/profile
+GET /leaderboard
+```
+
 | Endpoint | Description |
 | ---- | --------------- |
-| GET / | Get channel's list of following users |
+| GET /:uid/privateProfile | Get channel's list of following users |
+| GET /:uid/profile | Get a user's list of followed channels |
+| GET /leaderboard | Get status of follow relationship between user and target channel |
+
+### User Info
+
+#### Base URL: http://resources.meerkatapp.co/users/:uid/:
+
+```
+DELETE /:uid/fans
+DELETE /:uid/followers
+GET /:uid/followers
+GET /:uid/following
+GET /:uid/profile
+GET /:uid/sweepSessions
+GET /i-am-alive
+OPTIONS /
+OPTIONS /:uid
+OPTIONS /:uid/followers
+OPTIONS /:uid/following
+OPTIONS /:uid/twitterFriendsSignUp
+OPTIONS /search
+POST /
+POST /:uid/fans
+POST /:uid/followers
+POST /:uid/invites
+POST /:uid/reports
+POST /:uid/socialLinks
+POST /:uid/twitterFriends
+POST /:uid/twitterFriendsSignUp
+PUT /
+PUT /:uid
+PUT /:uid/profile
+PUT /available
+PUT /search
+```
+
+| Endpoint | Description |
+| ---- | --------------- |
+| DELETE /:uid | Get channel's list of following users |
 | GET /users/:user/follows/channels | Get a user's list of followed channels |
 | GET /users/:user/follows/channels/:target | Get status of follow relationship between user and target channel |
 | PUT /users/:user/follows/channels/:target | Follow a channel |
