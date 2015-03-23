@@ -30,7 +30,7 @@ Meerkat hosts different components of their API on different sub-domains, so bas
 | GET /:uid/profile<sup>*</sup> | Get user's profile |
 | GET /leaderboard | Get top Meerkat users |
 
-Any route with an appended <sup>*</sup> requires `?v=2` be appended to the URL.
+Any route with an <sup>*</sup> requires `?v=2` be appended to the end URL.
 
 ### User Info
 
