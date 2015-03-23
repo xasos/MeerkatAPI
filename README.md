@@ -26,7 +26,7 @@ Meerkat hosts different components of their API on different sub-domains, so bas
 
 | Endpoint | Description |
 | ---- | --------------- |
-| GET /:uid/privateProfile | Get user's private profile | * Requires
+| GET /:uid/privateProfile<sup style="color: red">*</sup> | Get user's private profile |
 | GET /:uid/profile | Get user's profile |
 | GET /leaderboard | Get top Meerkat users |
 
