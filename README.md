@@ -32,19 +32,6 @@ Any route with a <sup>*</sup> requires `?v=0.1.2` be appended to the end URL. Ad
 | GET /:uid/profile<sup>*</sup> | Get user's profile |
 | GET /leaderboard | Get top Meerkat users |
 
-```
-{
-"result": "rise and shine my child",
-"followupActions": {
-"stats": "https://stats.meerkatapp.co/logs",
-"signIn": "https://social.meerkatapp.co/users/?v=2",
-"inviteValidation": "https://social.meerkatapp.co/invite/{inviteCode}?v=2",
-"available": "https://social.meerkatapp.co/users/available?v=2",
-"signUp": "https://social.meerkatapp.co/users/?v=2"
-}
-}
-```
-
 ### User Information
 
 #### Base URL: http://social.meerkatapp.co/users
