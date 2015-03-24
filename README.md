@@ -2,11 +2,13 @@
 
 Unofficial API Documentation for the internal [Meerkat](http://meerkatapp.co) API. Endpoints were discovered through Charles Proxy, and there are more to come.
 
+*Note: This is an unofficial API and is __not__ supported or controlled by Meerkat itself. Any questions, comments, feedback or feature requests should be directed to [xasos](http://github.com/xasos) or via an [issue](https://github.com/xasos/MeerkatAPI/issues) in this repo.*
+
 ## Endpoints
 
 Meerkat hosts different components of their API on different sub-domains, so base URLs for resources will differ. 
 
-Any route with an <sup>*</sup> requires `?v=0.1.2` be appended to the end URL. Additionally, some routes require `?auth=xxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx` be appended to the end URL (ideally replacing with your own device auth token).
+Any route with a <sup>*</sup> requires `?v=0.1.2` be appended to the end URL. Additionally, some routes require `?auth=xxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx` be appended to the end URL (ideally replacing with your own device auth token).
 
 ### Broadcasts
 
