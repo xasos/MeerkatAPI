@@ -2,7 +2,7 @@
 
 Unofficial API Documentation for the internal [Meerkat](http://meerkatapp.co) API. Endpoints were discovered through Charles Proxy, and there are more to come.
 
-*Note: This is an unofficial API and is __not__ supported or controlled by Meerkat itself. Any questions, comments, feedback or feature requests should be directed to [xasos](http://github.com/xasos) or via an [issue](https://github.com/xasos/MeerkatAPI/issues) in this repo.*
+*Note: This is not an official API. I am not affiliated with Meerkat nor Life on Air, Inc. in any way, and am not responsible for any damage that could be done with it. Use it at your own risk. Any questions, comments, feedback or feature requests should be directed to [xasos](http://github.com/xasos) or via an [issue](https://github.com/xasos/MeerkatAPI/issues) in this repo.*
 
 ## Endpoints
 
