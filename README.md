@@ -77,8 +77,7 @@ Here's a mess of API routes that will be explored soon (all from one domain). St
 | PUT /:uid | Unfollow a channel |
 | PUT /:uid/profile | Unfollow a channel |
 | PUT /available | Unfollow a channel |
-| PUT /search | Unfollow a channel |
-
+| PUT /search | Search for users |
 
 ## License
 [GNU General Public License v3](LICENSE)
