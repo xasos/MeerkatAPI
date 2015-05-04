@@ -38,8 +38,6 @@ Any route with a <sup>*</sup> requires `?v=0.1.2` be appended to the end URL. Ad
 
 #### Base URL: http://social.meerkatapp.co/users
 
-Here's a mess of API routes that will be explored soon (all from one domain). Stay tuned!
-
 | Endpoint | Description |
 | ---- | --------------- |
 | DELETE /:uid/fans | Get channel's list of following users |
@@ -48,7 +46,8 @@ Here's a mess of API routes that will be explored soon (all from one domain). St
 | GET /:uid/following<sup>*</sup> | Get user's following |
 | GET /:uid/profile<sup>*</sup> | Get user's profile |
 | GET /i-am-alive<sup>*</sup> | Easter Egg |
-| OPTIONS / | Unfollow a channel |
+| GET /signupSuggested<sup>*</sup> | Signup Suggested |
+| OPTIONS /<sup>*</sup> | Unfollow a channel |
 | OPTIONS /:uid | Unfollow a channel |
 | OPTIONS /:uid/followers | Unfollow a channel |
 | OPTIONS /:uid/following | Unfollow a channel |
