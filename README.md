@@ -49,24 +49,24 @@ Any route with a <sup>*</sup> requires `?v=0.1.2` be appended to the end URL. Ad
 | GET /:uid/profile<sup>*</sup> | Get user's profile |
 | GET /i-am-alive<sup>*</sup> | Easter Egg |
 | GET /signupSuggested<sup>*</sup> | Signup Suggested |
-| OPTIONS /<sup>*</sup> | Unfollow a channel |
-| OPTIONS /:uid | Unfollow a channel |
-| OPTIONS /:uid/followers | Unfollow a channel |
-| OPTIONS /:uid/following | Unfollow a channel |
-| OPTIONS /:uid/twitterFriendsSignUp | Unfollow a channel |
-| OPTIONS /search | Unfollow a channel |
-| POST / | Unfollow a channel |
-| POST /:uid/fans | Unfollow a channel |
-| POST /:uid/followers | Unfollow a channel |
-| POST /:uid/invites | Unfollow a channel |
-| POST /:uid/reports | Unfollow a channel |
-| POST /:uid/socialLinks | Unfollow a channel |
-| POST /:uid/twitterFriends | Unfollow a channel |
-| POST /:uid/twitterFriendsSignUp | Unfollow a channel |
-| PUT / | Unfollow a channel |
-| PUT /:uid | Unfollow a channel |
-| PUT /:uid/profile | Unfollow a channel |
-| PUT /available | Unfollow a channel |
+| OPTIONS /<sup>*</sup> |  |
+| OPTIONS /:uid | User id |
+| OPTIONS /:uid/followers | Followers |
+| OPTIONS /:uid/following | Following |
+| OPTIONS /:uid/twitterFriendsSignUp | Twitter from friends |
+| OPTIONS /search | Search |
+| POST / |  |
+| POST /:uid/fans | List of fans |
+| POST /:uid/followers | List of followers |
+| POST /:uid/invites | Invites |
+| POST /:uid/reports | Channel reports |
+| POST /:uid/socialLinks | Profile's social links |
+| POST /:uid/twitterFriends | "Friends" from Twitter |
+| POST /:uid/twitterFriendsSignUp | Sign up with Twitter from friends |
+| PUT / |  |
+| PUT /:uid | Get user details |
+| PUT /:uid/profile | Get profile details |
+| PUT /available | Check if user is available |
 | PUT /search | Search for users |
 
 ## License
